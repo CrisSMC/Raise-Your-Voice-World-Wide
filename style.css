@@ -7,7 +7,7 @@ body{
 	background-color:black;
 	
 }
-.navbar{
+nav{
 	position:fixed;
 	width:100%;
 	border-bottom:3px gray;
@@ -19,13 +19,14 @@ body{
 		box-shadow: 0 8px 6px -6px white;
 	background-color:black;
 }
-.navbar P{
+nav a{
 	float: right;
 	margin-right: 5px;
 	margin:15px 40px 5px 5px;
-	
+	text-decoration: none;
 }
-.header{
+
+header{
 	background-image: url("img/header.png");
 	background-repeat: no-repeat;
 	background-position: 0px 100px;
@@ -48,14 +49,18 @@ h2{
 	color:white;
 	font-size:70px;
 }
-.content{
+h3{
+	color:white;
+	padding:10px 0px 10px;
+}
+main{
 	
 	padding: 20px 15px 10px 15px;
 	width:80%;
 	margin:auto;
 	box-shadow: 0 4px 8px 0 rgba(255,255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
-.footer{
+footer{
 	width:80%;
 	height:50px;
 	margin:auto;
@@ -67,5 +72,18 @@ h2{
 	}
 .contact{
 	float: right;
+	}
+img {
+    -moz-box-shadow: 5px 4px 5px #333333;
+    -webkit-box-shadow: 5px 4px 5px #333333;
+    box-shadow: 5px 4px 5px #333333;
+	alignment-adjust:middle;
+	border:solid 12px #ffffff;
+	-webkit-transform: rotate(353deg);
+	-moz-transform: rotate(353deg);
+	-o-transform: rotate(353deg);
+	-ms-transform: rotate(353deg);
+	padding: 0 ;
+	margin:50px 0 50px 0;
 	}
 
