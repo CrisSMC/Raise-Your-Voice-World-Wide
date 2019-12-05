@@ -9,6 +9,7 @@ body{
 }
 nav{
 	position:fixed;
+	z-index: 1;
 	width:100%;
 	border-bottom:3px gray;
 	height:80px;
@@ -85,5 +86,37 @@ img {
 	-ms-transform: rotate(353deg);
 	padding: 0 ;
 	margin:50px 0 50px 0;
+	}
+	.leftcontent{
+		padding:10px 0 10px 0;
+		float: left;
+		width:40%;
+	}
+	.rightcontent{
+		padding:10px 0 10px 0;
+		float: right;
+		width:40%;
+	}
+	.prodpair {
+		padding:10px 0 10px 0;
+		float: clear;
+	}
+	.prodpair img{
+		float: right;
+		width:40%;
+	}
+	.produnpair img{
+		float: left;
+		width:40%;
+	
+	}
+	.produnpair {
+		padding:10px 0 10px 0;
+	float: clear;
+	}
+	.full{
+		padding:10px 0 10px 0;
+	clear: both;
+	width:90%;
 	}
 
