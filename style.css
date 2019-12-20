@@ -12,7 +12,7 @@ nav{
 	z-index: 1;
 	width:100%;
 	border-bottom:3px gray;
-	height:80px;
+	height:50px;
 	padding:10px;
 	color: white;
 	-webkit-box-shadow: 0 8px 6px -6px white;
@@ -27,15 +27,28 @@ nav a{
 	text-decoration: none;
 }
 
+
 header{
 	background-image: url("img/header.png");
 	background-repeat: no-repeat;
-	background-position: 0px 100px;
+	background-position: 0px 50px;
 	background-attachment: fixed;
-	height:320px;
-	width:80%;
+	height:300px;
+	width:100%;
 	margin:auto;
-	padding-top:80px;
+	padding-top:50px;
+	color: white;
+ }
+ .transition
+ {
+	background-image: url("img/transition.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-attachment: fixed;
+	height:300px;
+	width:100%;
+	margin:auto;
+	padding-top:50px;
 	color: white;
  }
  
@@ -66,15 +79,19 @@ footer{
 	height:50px;
 	margin:auto;
 	padding-top: 50px;
+	clear: both;
 	}
-	
+.presentation{
+	text-align: center;
+}
+
 .about{
 	float: left;
 	}
 .contact{
 	float: right;
 	}
-img {
+main img {
     -moz-box-shadow: 5px 4px 5px #333333;
     -webkit-box-shadow: 5px 4px 5px #333333;
     box-shadow: 5px 4px 5px #333333;
@@ -87,8 +104,34 @@ img {
 	padding: 0 ;
 	margin:50px 0 50px 0;
 	}
+	.products {
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.prodpair {
+		clear: both;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.produnpair {
+		clear: both;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	.certer {
+	text-align: center;
+
+}
+	.leftimg {
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.leftcontent{
-		padding:10px 0 10px 0;
+		  
 		float: left;
 		width:40%;
 	}
@@ -97,26 +140,34 @@ img {
 		float: right;
 		width:40%;
 	}
-	.prodpair {
-		padding:10px 0 10px 0;
-		float: clear;
-	}
 	.prodpair img{
-		float: right;
-		width:40%;
+	
+		width:30%;
+		margin-left: 15%;
 	}
 	.produnpair img{
-		float: left;
-		width:40%;
-	
+		float: right;
+		width:30%;
+		margin-right:15%;
 	}
-	.produnpair {
-		padding:10px 0 10px 0;
-	float: clear;
-	}
+
 	.full{
 		padding:10px 0 10px 0;
-	clear: both;
-	width:90%;
+		clear: both;
+		width:90%;
+		height: 50px;	
 	}
+	.smlinks img{
+	float: right;
+	margin-right: 5px;
+	margin:5px 5px 5px 5px;
+	text-decoration: none;
+
+}
+.contact input select textarea option {
+	color:black;
+}
+.form2{
+	text-align: center;
+}
 
