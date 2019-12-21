@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Headland+One|Poly|Roboto+Slab|Special+Elite|Taviraj&display=swap');
+
 *{
 	font-family: Sans-serif;
-	margin:0;
 	color: white;
+	margin:0px;
 }
 body{
 	background-color:black;
@@ -48,6 +50,8 @@ header{
 	height:300px;
 	width:100%;
 	margin:auto;
+	margin-top: 50px;
+    margin-bottom: 30px;
 	padding-top:50px;
 	color: white;
  }
@@ -55,17 +59,28 @@ header{
 h1{
 	float:left;
 	margin:15px 0 10px 20px;
-	color:white;
+	color:#FFC029;
 }
 
 h2{
+	font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	text-align: center;
-	color:white;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color:#FFC029;
 	font-size:70px;
 }
 h3{
-	color:white;
+	color:#FFC029;
 	padding:10px 0px 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size:30px;
+}
+h4{
+	color:#FFC029;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 main{
 	
@@ -167,7 +182,30 @@ main img {
 .contact input select textarea option {
 	color:black;
 }
-.form2{
+.form{
 	text-align: center;
 }
+
+.bottons {
+	text-align: center;
+	margin-top:30px;
+	text-decoration: none;
+	padding: 12px 30px;
+	color: #000;
+	background-color: #FFEB30;
+	font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.bottons a{
+	margin-top:30px;
+}
+.bottons:hover {
+	color: #ffffff;
+	background-color: #FFC029;
+	margin-top:30px;
+}
+.bottons:active {
+	background: #FFEB30;
+	margin-top:30px;
+}
+
 
