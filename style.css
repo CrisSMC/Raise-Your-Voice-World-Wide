@@ -1,34 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Headland+One|Poly|Roboto+Slab|Special+Elite|Taviraj&display=swap');
+
 *{
 	font-family: Sans-serif;
-	margin:0;
 	color: white;
+	margin:0px;
 }
 body{
 	background-color:black;
 	
 }
-nav{
-	position:fixed;
+header{
+	background-color: black;
+		-webkit-box-shadow: 0 8px 6px -6px white;
+	-moz-box-shadow: 0 8px 6px -6px white;
+		box-shadow: 0 8px 6px -6px white;
+		position:fixed;
 	z-index: 1;
 	width:100%;
 	border-bottom:3px gray;
 	height:50px;
 	padding:10px;
+}
+nav{
 	color: white;
-	-webkit-box-shadow: 0 8px 6px -6px white;
-	-moz-box-shadow: 0 8px 6px -6px white;
-		box-shadow: 0 8px 6px -6px white;
-	background-color:black;
+
+	
 }
 nav a{
 	float: right;
 	margin-right: 5px;
 	margin:15px 40px 5px 5px;
 	text-decoration: none;
+	font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
+nav a:hover{
+	text-align: center;
+	text-decoration: none;
+	padding: 12px 12px;
+	color: #000;
+	background-color: #FFEB30;
+	font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+nav a:active {
+	background: #FFEB30;
+}
 
-header{
+.trans{
 	background-image: url("img/header.png");
 	background-repeat: no-repeat;
 	background-position: 0px 50px;
@@ -48,6 +66,8 @@ header{
 	height:300px;
 	width:100%;
 	margin:auto;
+	margin-top: 50px;
+    margin-bottom: 30px;
 	padding-top:50px;
 	color: white;
  }
@@ -55,17 +75,28 @@ header{
 h1{
 	float:left;
 	margin:15px 0 10px 20px;
-	color:white;
+	color:#FFC029;
 }
 
 h2{
+	font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	text-align: center;
-	color:white;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color:#FFC029;
 	font-size:70px;
 }
 h3{
-	color:white;
+	color:#FFC029;
 	padding:10px 0px 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size:30px;
+}
+h4{
+	color:#FFC029;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 main{
 	
@@ -88,9 +119,7 @@ footer{
 .about{
 	float: left;
 	}
-.contact{
-	float: right;
-	}
+
 main img {
     -moz-box-shadow: 5px 4px 5px #333333;
     -webkit-box-shadow: 5px 4px 5px #333333;
@@ -164,10 +193,114 @@ main img {
 	text-decoration: none;
 
 }
-.contact input select textarea option {
+.produnpair img:hover{
+
+	-webkit-transform: rotate(00deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-moz-box-shadow: 5px 4px 5px #333333;
+    -webkit-box-shadow: 5px 4px 5px #333333;
+    box-shadow: 5px 4px 5px #333333;
+	alignment-adjust:middle;
+	border:solid 12px #ffffff;
+	width: 40%;
+	padding: 0 ;
+	margin:50px 50px 10px 50;
+}
+.prodpair img:hover{
+
+	-webkit-transform: rotate(00deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-moz-box-shadow: 5px 4px 5px #333333;
+    -webkit-box-shadow: 5px 4px 5px #333333;
+    box-shadow: 5px 4px 5px #333333;
+	alignment-adjust:middle;
+	border:solid 12px #ffffff;
+	width: 40%;
+	padding: 0 ;
+	margin:50px 50px 10px 50;
+}
+.contact{
+	margin:auto;
+	
+}
+	.contact p{
+	clear:both;
+	
+	}
+.contact select option {
 	color:black;
 }
-.form2{
+.contact textarea{
+	float: right;
+
+}
+
+input{
+	float: right;
+}
+
+input[type="submit" i] {
+	color: #000;
+	background-color: #FFEB30;
+
+}
+input[type="submit" i]:hover{
+	color: #ffffff;
+	background-color: #FFC029;
+
+}
+select{
+	float: right;
+
+}
+.form{
+	text-align: left;
+	width: 50%;
+	margin:auto;
+}
+
+.bottons {
 	text-align: center;
+	margin-top:30px;
+	text-decoration: none;
+	padding: 12px 30px;
+	color: #000;
+	background-color: #FFEB30;
+	font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.bottons a{
+	margin-top:30px;
+}
+.bottons:hover {
+	color: #ffffff;
+	background-color: #FFC029;
+	margin-top:30px;
+}
+.bottons:active {
+	background: #FFEB30;
+	margin-top:30px;
+}
+@media only screen and (max-width:  600px){
+	header .menu{
+		flex-direction: column;
+
+	}
+	header .menu .logo{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	header .menu .logo{
+		display fles
+	}
+
 }
 
